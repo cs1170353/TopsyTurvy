@@ -2,6 +2,10 @@
 name: create-event-subscription 
 on:
   push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/create_subscription.yml'
 
 jobs:
   train:
