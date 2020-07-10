@@ -1,4 +1,4 @@
-name: CI
+name: dispatch_event
 on:
   repository_dispatch:
     types: [imagepushed]
